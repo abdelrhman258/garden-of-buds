@@ -54,7 +54,7 @@ const ContactSection = () => {
             </div>
             <h3 className="text-lg font-bold mb-2 text-foreground">ساعات العمل</h3>
             <p className="text-muted-foreground">الأحد - الخميس</p>
-            <p className="text-muted-foreground">7 صباحاً - 5 مساءً</p>
+            <p className="text-muted-foreground">6 صباحاً - 6 مساءً</p>
           </div>
         </div>
       </div>
