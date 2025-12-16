@@ -4,9 +4,7 @@ import {
   Users, 
   Palette, 
   Heart, 
-  Clock,
-  Utensils,
-  Bus
+  Clock
 } from "lucide-react";
 
 const features = [
@@ -45,18 +43,6 @@ const features = [
     title: "ساعات مرنة",
     description: "فترات صباحية ومسائية تناسب جميع الأسر",
     color: "bg-nursery-yellow text-foreground",
-  },
-  {
-    icon: Utensils,
-    title: "وجبات صحية",
-    description: "قائمة طعام متوازنة ومغذية يومياً",
-    color: "bg-nursery-purple",
-  },
-  {
-    icon: Bus,
-    title: "خدمة النقل",
-    description: "حافلات آمنة ومكيفة لتوصيل الأطفال",
-    color: "bg-nursery-blue",
   },
 ];
 
