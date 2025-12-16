@@ -44,7 +44,7 @@ const ContactSection = () => {
               <MapPin className="w-8 h-8 text-primary-foreground" />
             </div>
             <h3 className="text-lg font-bold mb-2 text-foreground">الموقع</h3>
-            <p className="text-muted-foreground">المملكة العربية السعودية</p>
+            <p className="text-muted-foreground">الرياض - حي العارض</p>
           </div>
 
           {/* Working Hours */}

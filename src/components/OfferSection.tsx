@@ -1,4 +1,4 @@
-import { Gift, Clock, Star, Sparkles } from "lucide-react";
+import { Gift, Star } from "lucide-react";
 
 const OfferSection = () => {
   return (
@@ -20,27 +20,6 @@ const OfferSection = () => {
             </span>
           </h2>
 
-          {/* Offer details */}
-          <div className="space-y-4 mb-8">
-            <div className="flex items-center justify-center gap-3 text-xl">
-              <Sparkles className="w-6 h-6 text-nursery-orange" />
-              <span className="text-foreground font-medium">خصم 30% على رسوم التسجيل</span>
-            </div>
-            <div className="flex items-center justify-center gap-3 text-xl">
-              <Sparkles className="w-6 h-6 text-nursery-green" />
-              <span className="text-foreground font-medium">شهر مجاني عند التسجيل السنوي</span>
-            </div>
-            <div className="flex items-center justify-center gap-3 text-xl">
-              <Sparkles className="w-6 h-6 text-nursery-purple" />
-              <span className="text-foreground font-medium">حقيبة مدرسية وزي هدية</span>
-            </div>
-          </div>
-
-          {/* Timer indicator */}
-          <div className="inline-flex items-center gap-2 text-muted-foreground mb-8">
-            <Clock className="w-5 h-5 text-nursery-pink" />
-            <span>العرض ساري حتى نفاد العدد</span>
-          </div>
 
           {/* CTA */}
           <div>
